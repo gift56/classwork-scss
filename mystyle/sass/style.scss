@@ -1,0 +1,56 @@
+@import 'reset';
+@import 'color';
+@import 'text';
+nav{
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+
+    div:nth-child(1){
+        background-color: $bg;
+        color: $btn-color;
+        text-align: $align
+    }
+    div:nth-child(2){
+        background-color: $bg2;
+        color: $btn-color;
+        text-align: $align;
+    }
+    div:nth-child(3){
+        background-color: $bg3;
+        color: $btn-color;
+        text-align: $align;
+    }
+
+
+    div{
+        width: 100%;
+        height: 50vh;
+
+        h1{
+            font-size: 40px;
+            margin-top: 20%;
+            font-family: $family;
+        }
+
+    }
+
+    
+    button{
+        width: 16vw;
+        height: 7vh;
+        background-color: $btn-back;
+        color: $btn-color;
+        border-radius: 16px;
+        font-size: $font;
+        margin-top: 15%;
+        font-family: $family;
+    }
+    button:hover {
+        background-color: $btn-hover;
+        cursor: pointer;
+    }
+}
+
+
+@import 'media';

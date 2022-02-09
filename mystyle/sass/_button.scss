@@ -1,0 +1,14 @@
+button{
+    width: 16vw;
+    height: 7vh;
+    background-color: $btn-back ;
+    color: set-text-color;
+    border-radius: 16px;
+    font-size: $font;
+    margin-top: 15%;
+    font-family: $family;
+}
+button:hover {
+    background-color: $btn-hover;
+    cursor: pointer;
+}
